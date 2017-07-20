@@ -1,0 +1,9 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "brace-style": [2, "stroustrup"],
+    "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 4 }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }], // https://goo.gl/EhwW5E
+    "max-len": 0
+  }
+}

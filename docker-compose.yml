@@ -1,0 +1,15 @@
+version: '2.1'
+services:
+  redis:
+    container_name: redis_waldo
+    image: redis:alpine
+    volumes:
+      - ./volumes/var/lib/redis:/var/lib/redis
+    networks:
+      - waldo_network
+    ports:
+      - 6379:6379
+    # command:
+    #   -  /bin/bash -c 'echo never > /sys/kernel/mm/transparent_hugepage/enabled'
+networks:
+  waldo_network:

@@ -1,0 +1,171 @@
+
+> waldophotos@1.0.0 download /Users/vlod/dev/open_source/waldophotos
+> node downloader.js
+
+Set queue with NUM_WORKERS = 10
+.skipping key:0003b8d6-d2d8-4436-a398-eab8d696f0f9.68cccdd4-e431-457d-8812-99ab561bf867.jpg as redis already has the hash:[i:0d275810374b5d169de000276d193224]
+.skipping key:0005D22E-0B97-4FF5-B220-B80A1C389D56.839c4a2b-2fcb-4123-8b41-cad084c35896.jpg as redis already has the hash:[i:1c64530fba17115c96ac507248698695]
+.skipping key:0009468d-a3ba-4503-ae41-c49ee65315d1.49dc0f72-5263-4b1c-a51d-7a39f1e36ca8.jpg as redis already has the hash:[i:05d7bb4f5feeca5a7faa9ba088d0ee03]
+.skipping key:00095a3e-dd07-4fa9-b98e-599d509ec920.fbe49e49-fb6d-4747-84d4-92cc0bbe984b.jpg as redis already has the hash:[i:91f4442f43955e765600d9be6e9950c8]
+.skipping key:0009fcfe-376e-42fe-85a2-85ee7d2193d0.0649232a-b406-4ec1-b175-ba0d91aa3e7c.jpg as redis already has the hash:[i:008c29dd36ad4041a3d2a993995b2557]
+.skipping key:000E71B8-6FE9-42FA-A9BA-3D850975650B.c0bad80a-b0f7-4f67-98c6-8d5e65d53f09.jpg as redis already has the hash:[i:55e9887fae501e0526b679a6ae63bd4d]
+.skipping key:0011166a-0915-44b5-88ba-e73365f332a9.fbc3a8ee-3c25-4f7a-9134-3e14bda4df0c.jpg as redis already has the hash:[i:74d2b2ced6d66b031d49fd525ea4d953]
+.skipping key:00117e28-cd7f-4fce-bbf0-00f6f0eacc32.c287ae95-9a18-4fc7-bd76-6572e3757062.jpg as redis already has the hash:[i:5d01f42f886929ee701366a440a67554]
+.skipping key:001465b9-8792-46ae-b182-67401042857d.8f2647a9-e0a3-46c5-8d39-7bba07a1e56d.jpg as redis already has the hash:[i:2b2a357d137b860623c7ec66ae0ab42b]
+.skipping key:0015A5C3-D186-471F-A032-9E952CFF3CC6.8fedf4e8-8695-4d6d-ad1e-b686daa713a1.jpg as redis already has the hash:[i:cc5e8fd9cb350acf86858a11297659cc]
+.skipping key:0017d06a-6748-448a-8003-8d1a30149519.cc8558fe-0d9e-4652-a7e1-d0dfe2dde985.jpg as redis already has the hash:[i:1f9845b3f729d5c8116513375ec63896]
+.skipping key:001AE2F4-9C25-49F8-B498-C97C984CE40A.d22b891e-8c80-454b-b26b-1ef65f7ed025.jpg as redis already has the hash:[i:7609c08ab71078295901e0b429d661be]
+.skipping key:001a59a1-4d67-4d03-a3b5-1bc5e321c581.bb899036-781a-467d-9995-5a236136565f.jpg as redis already has the hash:[i:7886b0c1182fbe913208566c69577cf3]
+.skipping key:001cda9e-affb-4923-92ba-321bdb335065.08d38089-355e-420e-924f-222f3439b3f1.jpg as redis already has the hash:[i:115697c7b03975d4aa66d033ff00114b]
+.skipping key:001f4fda-11a9-439d-b579-813d7624afe7.ecd9c0eb-65ec-4e30-b537-a3690f81616b.jpg as redis already has the hash:[i:0f061e0102e3d92cecaf83aab16da779]
+.skipping key:00222329-961B-47E7-832D-5C6819D53309.da59683d-82f9-4518-89b4-5f26276c5f4d.jpg as redis already has the hash:[i:a2a70bb648dbb7f838a9847eca10948e]
+.skipping key:0022396a-d8b9-409a-95b9-b65e3e1a05dd.ec4dd8a6-b8aa-41ac-bcec-930b91f30870.jpg as redis already has the hash:[i:f5f1e3f787b0d968b5f2b6ed84e1f4f3]
+.skipping key:00239ce4-a00d-45d7-8ad2-b95abfae7240.78461b56-49d2-4258-ab20-f5462c42d33c.jpg as redis already has the hash:[i:f67ee339527367cff9ad935b11258892]
+.skipping key:0023ede6-3d80-4512-b844-c5cbf5ad39e8.4e80a67b-2ba4-46ce-aa23-b1b18366aa4e.jpg as redis already has the hash:[i:2de95ebf40839d5915c0a83203401f0f]
+.skipping key:002446A4-EE6F-4B1A-BDF3-9A9CFB711F5D.ede96cc7-5500-4b3a-8828-26aabcaa2f4c.jpg as redis already has the hash:[i:3d18990370ce12681aa04a0195b45f49]
+.skipping key:002473c9-bec6-42f4-bd38-bb8fd2e48d76.b3318dbf-e648-4361-928f-80b0be3df80c.jpg as redis already has the hash:[i:816dfcc97e9caf6a900970c1f41570f7]
+.skipping key:0024840d-f236-45dc-b0c2-14e1972dd530.4eb71fa4-c5c1-4be6-83e7-d43150f57b11.jpg as redis already has the hash:[i:a25194dbab67b029e0f0095f02cc3ef0]
+.skipping key:002858ee-d2ca-4a86-b266-9e9a6bb1f0c8.f4185f4e-b031-4529-bc07-83631c0bc343.jpg as redis already has the hash:[i:a3d6590e823c96d744e1f9a23c0657e8]
+.skipping key:00293818-8841-429d-9d40-014e1149a29d.1aafffca-2fa8-4899-bd4b-42d8f1ed345a.jpg as redis already has the hash:[i:ccd00ab3e79c700a38619f1d92beda17]
+.skipping key:002C1446-1EA8-453E-998A-7C15615B4775.63b74938-c8e6-41e1-bdec-8358547d4223.jpg as redis already has the hash:[i:484f52a7629881e43da9f881e5292a82]
+.skipping key:002a6821-1059-4f22-8203-4504284cb973.ccdeffef-59d2-4a16-813c-35fefa546e93.jpg as redis already has the hash:[i:0b70c2ba74cbccdfbf9be0c6041f194f]
+.skipping key:002d0ce4-22fa-4d51-94d1-73a78da8f87b.08d38089-355e-420e-924f-222f3439b3f1.jpg as redis already has the hash:[i:458b4e69a0de8fe5865e2ec1a7b5e2cf]
+.skipping key:003139f0-7d6b-46d7-a981-4a7f33950129.08d38089-355e-420e-924f-222f3439b3f1.jpg as redis already has the hash:[i:de27fecb32b053e1f2eee812ea9b1c23]
+.skipping key:00324bd6-fcfc-41a0-909f-8211c500003e.fbc3a8ee-3c25-4f7a-9134-3e14bda4df0c.jpg as redis already has the hash:[i:366e23bbfb876afc44e7ba62acd30d87]
+.skipping key:00339CE8-4BD4-4CDF-866B-E70430EA80CC.419ad0ff-3deb-4766-9200-e2a45164140e.jpg as redis already has the hash:[i:a5044052597735028c7c0274ff19ff1e]
+.skipping key:00356ec1-8791-4704-932a-6c3c637826da.1ab39692-065e-400b-b03c-7ba6dc0fb666.jpg as redis already has the hash:[i:ff361aeb77dac85c981cbb75cad34288]
+.skipping key:00366d8b-4720-41c6-9e86-e081fe822f33.a17c6591-de20-4b75-a5de-0bb11a34a116.jpg as redis already has the hash:[i:865747cc7f4e5dac918ba9bc9d8cc976]
+.skipping key:0038302d-6170-47a0-a0c7-d0f2c4059f61.a458f5de-ae22-440d-ba84-165e53bb63de.jpg as redis already has the hash:[i:4b0497f18014802b48baef439318eb86]
+.skipping key:003e9b69-cf8f-44f9-a08e-8539ffead459.bb5fffb1-6377-47fe-804d-1ad6f3928343.jpg as redis already has the hash:[i:0668bb614db528ec07074a288eea7ea2]
+.skipping key:003f5873-885c-4a2d-91e6-870c1235963f.0649232a-b406-4ec1-b175-ba0d91aa3e7c.jpg as redis already has the hash:[i:bea23c1d060d03c7c8b61f5b848699b1]
+.skipping key:00436b0e-de86-4889-b885-1e0bbd03cc20.7600c7ec-0d55-4e01-bb4f-c6e430a17a52.jpg as redis already has the hash:[i:1623c6876be30d08e56381f249bb089a]
+.skipping key:0045d41a-9be5-49a8-88c4-1271d7326bc2.4071c384-2d45-45bf-a275-19b11ccee657.jpg as redis already has the hash:[i:94eec6b3e4f1e92cf809b3be00f93c62]
+.skipping key:00473486-d027-42ff-9d7c-e7139a6889fd.3a854acf-d59d-4870-ba34-a1d2a1fc948c.jpg as redis already has the hash:[i:388f42c340ed111020d00c68c11d7a19]
+.skipping key:004A3357-8439-4714-811B-2DAEACD411BB.55dbc1a6-b755-44d9-a0d2-a5a707955c58.jpg as redis already has the hash:[i:cea18f7497782d7109e1615b039ec1fc]
+.skipping key:004cd78c-d4a5-4a5c-936e-cb731682b85c.bf439ab4-df1f-4e03-b0a4-cf160d6c367c.jpg as redis already has the hash:[i:dcb9bd7aa3f7c60b53e4f2266300f225]
+.skipping key:004d0f45-d13c-47aa-b738-86eb6e9d15af.ccdeffef-59d2-4a16-813c-35fefa546e93.jpg as redis already has the hash:[i:245b3bc8f68f8d68ac611bb5c9ddbe5a]
+.skipping key:004d267f-4f9e-4a08-b33e-956e952b236d.0e62c31a-2a1d-43d4-b040-3bf0ac756966.jpg as redis already has the hash:[i:eeadece53884047c520525eefef69bd7]
+.skipping key:004e52ef-7811-4e6a-b8d6-dba7d266471f.bf439ab4-df1f-4e03-b0a4-cf160d6c367c.jpg as redis already has the hash:[i:32dbc4b34e643baccebca2678e836d85]
+.skipping key:004e8414-9f5d-4300-b702-cf765f0d1aa7.e8ae7a45-8b4c-4142-b3d2-0f631d543b20.jpg as redis already has the hash:[i:dea8af517d94f8ce90e93c4b8e7901b4]
+.skipping key:00507333-bfe6-49aa-9d9d-ea7334796eb5.6694cd9c-0113-44b2-b105-d16fe020e80f.jpg as redis already has the hash:[i:b71d581af9d8f5f7e17b45728e936c43]
+.skipping key:0050ACF0-DE6E-4747-928B-9A4D6312EF95.6022c260-4e43-4342-846d-afc78e885701.jpg as redis already has the hash:[i:d121ded6c3f9b6f573a9b8fa60a3d5e8]
+.skipping key:0050a32d-b638-4a85-9a0a-28fbcf8608da.78461b56-49d2-4258-ab20-f5462c42d33c.jpg as redis already has the hash:[i:dd9647fd9effafeb32eb6457bfd2ee6d]
+.skipping key:0050b9ea-6bf6-47b6-84ef-d94f56a76ac2.b3318dbf-e648-4361-928f-80b0be3df80c.jpg as redis already has the hash:[i:5e3771d546c9c8683807f8b8a7ed95a5]
+.skipping key:0052eb2e-15e8-49c7-84ca-c39834490279.96e2a4b2-6578-4c8d-b874-59353bb7ec9a.jpg as redis already has the hash:[i:cfe2184efcdf51423f1a9ed05aab8ab8]
+.skipping key:00552978-be55-491c-a751-ce817c84c26c.e0ff62ff-6551-4c03-b4ec-e1951b9bff28.jpg as redis already has the hash:[i:d765cdd628d7ff397c8fc76fabdf5f2c]
+.skipping key:0056b3e5-5c4c-41b5-bf42-1f1eeac6539d.eb1f01a8-ffa9-4be1-8ac6-af1c24a8a667.jpg as redis already has the hash:[i:32e087f4f3bc238d792969f91f1b2f6e]
+.skipping key:0124cc29-dcaf-4fa3-8b75-161c36c989ce.df99e78d-d562-4530-9fd5-db7ef26c3b5e.jpg as redis already has the hash:[i:cfee48512d8cc40e2b33279b60c93d8a]
+.skipping key:0127551c-df14-4481-b815-23c4fe5995fc.feed38a0-4e12-493a-ad63-fe515a2eed4b.jpg as redis already has the hash:[i:db8c074ce9eeefb71efdb349a376eb31]
+.skipping key:012BD464-C940-4C14-98F0-F7FD8C7A30B9.ede96cc7-5500-4b3a-8828-26aabcaa2f4c.jpg as redis already has the hash:[i:9fc8bc090eb091f0e6a28d66fd8701a4]
+.skipping key:012ab7df-5b84-4235-9996-8ef7d5c80caf.36aa9317-b823-4244-92bb-d7757be82cc7.jpg as redis already has the hash:[i:c26299fce3436525808be7a883b4b55c]
+.skipping key:012c11ae-2ba7-4d9e-823e-a5b76c96a106.5a816864-d21b-4908-8dd2-ba9ffe4429a9.jpg as redis already has the hash:[i:d125f6945cc6fbe3848d4fac82c7eb61]
+.skipping key:012d9b73-24e4-45cf-a929-dfe05db52237.0e62c31a-2a1d-43d4-b040-3bf0ac756966.jpg as redis already has the hash:[i:e68d365f145ac95f125f876ed4217ae3]
+.skipping key:0134b903-ac3f-4f13-80a4-9db34ee35514.8b460a8f-f15a-4c9e-97b9-98533fff1e46.jpg as redis already has the hash:[i:85de176b8e80471f527369367d89ead8]
+.skipping key:01380ed3-f778-4732-8b57-4954e1b71fe4.9554afc4-5761-4d75-9904-399caa9d565f.jpg as redis already has the hash:[i:ab92efc14281ede9f28633659b15bd53]
+.skipping key:0139F3F5-972D-40DC-AFBF-5A4D2631A9F8.757bcf81-7814-4300-b536-da3283fcfc7e.jpg as redis already has the hash:[i:e6c7d95d4d756d248400d6f48a5341ff]
+.skipping key:013ab0ee-476b-4eee-b1f4-0f12918b6d1f.53958bf3-f68b-4920-98d4-509e8a36b1b8.jpg as redis already has the hash:[i:2c5f978ed14e0aa38faf67dc7823b08a]
+.skipping key:013ddfa2-7975-4bb1-af78-55c2603da0a6.0e62c31a-2a1d-43d4-b040-3bf0ac756966.jpg as redis already has the hash:[i:fafd72a1cbd1396d6b84e0b9a5b9e7e8]
+.skipping key:013e8279-439b-4e1d-84ed-76cfc5945c7a.3deaf184-bed0-4836-a51a-bc1d5ca831b3.jpg as redis already has the hash:[i:8fae3cdaf5ce5ca0a9f9ddc86527dd6c]
+.skipping key:0147EB05-F348-4729-AB7A-129F26986F87.757bcf81-7814-4300-b536-da3283fcfc7e.jpg as redis already has the hash:[i:cdc9eac7dfbc48815e3f5485da896289]
+.skipping key:01489b87-9cca-4d4d-ab25-abd9f9232b98.e12ac7d1-4215-4b48-83d2-02425ef448de.jpg as redis already has the hash:[i:0ae1484efc050e690036c3620c9e24fa]
+.skipping key:014B6752-5158-4F93-99D6-849353205F06.030450ce-b8e3-4506-a3bb-948dbee136f8.jpg as redis already has the hash:[i:a4a71804ad22938f2decfe7ab531695e]
+.skipping key:014E0016-5333-463C-A81F-F49D399799E4.ef6a8e88-16cb-410e-92e9-6fac94029722.jpg as redis already has the hash:[i:00786959f9dff6a848af49445e1235af]
+.skipping key:014b09a9-c700-4b6f-88d0-b46e0780e0f8.1ab39692-065e-400b-b03c-7ba6dc0fb666.jpg as redis already has the hash:[i:744a05d7a9a6b02224e891d87ccc523c]
+.skipping key:014bea33-cd8b-4752-a4d1-6a3ee0705fe4.e8ae7a45-8b4c-4142-b3d2-0f631d543b20.jpg as redis already has the hash:[i:ccda16123d4f845d6d7718cc8750c876]
+.skipping key:014c54fc-7fc5-4468-b69b-e3dc4ec73018.a458f5de-ae22-440d-ba84-165e53bb63de.jpg as redis already has the hash:[i:c675b593343111ac476b77f1054b8ab9]
+.skipping key:01526990-3da9-4afe-87e8-a67796946813.8c6787df-6a42-4c8b-991d-ad30bb8a5739.jpg as redis already has the hash:[i:e19168c9ea2d11f29572720f29e4b884]
+.skipping key:01545ec6-e621-4d87-a343-c4d41556d1b7.663307bb-4513-4f97-8e2a-12349a23f7b9.jpg as redis already has the hash:[i:84bf56ea69cc8dc213a4d8e7a66b7c8b]
+.skipping key:0156c59c-9e4c-446d-927d-f921dab13ecd.aa0e0244-a7c1-4b14-bf95-42087742ae0f.jpg as redis already has the hash:[i:6fbc8ca81a875de7d441af7410bc354a]
+.skipping key:01573088-aee1-4b8a-a076-f0ecb36cdb50.dd53f044-9b6b-41c1-989b-0ff65f933a40.jpg as redis already has the hash:[i:a840a2e314c29ea5b15d8a5b1dc1026f]
+.skipping key:01599278-ff28-43e7-8c72-559dccec1818.7f888c27-9419-44a0-ada5-5a1743eba8da.jpg as redis already has the hash:[i:816dfcc97e9caf6a900970c1f41570f7]
+.skipping key:015DE4CC-0499-408C-B87A-9D8A9DB5FA69.419ad0ff-3deb-4766-9200-e2a45164140e.jpg as redis already has the hash:[i:a5044052597735028c7c0274ff19ff1e]
+.skipping key:015c26a8-d351-400b-b006-320c620e41cd.29a0373c-0ca2-42ab-bac7-73aa315671b1.jpg as redis already has the hash:[i:e78cb77e7cafa6b5f629b4ef82ef9be0]
+.skipping key:01600845-d27c-4de2-8a48-4f81a9e8569b.96e2a4b2-6578-4c8d-b874-59353bb7ec9a.jpg as redis already has the hash:[i:24ab134ff54f779351bf7da0717590e6]
+.skipping key:0163DA3D-A971-4AB1-921D-127E29CCA437.c0bad80a-b0f7-4f67-98c6-8d5e65d53f09.jpg as redis already has the hash:[i:775a6aa9b974a18f75335d1aa815a6d1]
+.skipping key:01665877-f0b5-4453-81f3-c8ca08e0d894.3888017e-9d45-4003-b58a-59ed56741ac8.jpg as redis already has the hash:[i:77ab51d96f278b18d2240780742859a9]
+.skipping key:0166e5ed-11ad-4800-83c5-43775b14e290.1aafffca-2fa8-4899-bd4b-42d8f1ed345a.jpg as redis already has the hash:[i:61ecdb80703802a4c1415cc798cff92c]
+.skipping key:01676803-832c-4f52-ac00-0b1205bd5d1b.bb3e219a-4c76-4628-803d-3971f9c6f8a6.jpg as redis already has the hash:[i:c7bf343899392d94d82d2d096d72cb1e]
+.skipping key:01681603-D691-41A5-9D17-ECE75AE40A42.757bcf81-7814-4300-b536-da3283fcfc7e.jpg as redis already has the hash:[i:e6c7d95d4d756d248400d6f48a5341ff]
+.skipping key:0169c7f8-fec7-4b60-8bc3-b6b4cabef3c9.afc47f83-3f21-4de5-b18b-323602009f92.jpg as redis already has the hash:[i:0485865b6d756c0bd4470f7018622891]
+.skipping key:016ef077-0ecb-4c5d-888e-9ad2904d1004.dd53f044-9b6b-41c1-989b-0ff65f933a40.jpg as redis already has the hash:[i:fcdb314141db55cd446e8260cfb0f061]
+.skipping key:0171b32e-02c6-4f23-9d43-83e797818654.0e62c31a-2a1d-43d4-b040-3bf0ac756966.jpg as redis already has the hash:[i:71a276ce6852307bb6a1735e83403473]
+.skipping key:017247de-3d97-4b4f-8788-750ddfb758d0.f09fce6d-d1db-4b37-9b75-b62cd5c2a12d.jpg as redis already has the hash:[i:04057962cae0c5952196a2eceb6a5715]
+.skipping key:0172ba0b-6a96-44aa-be59-1acbd395602f.2a2f76ce-54d7-4c05-9d61-dc5330fac544.jpg as redis already has the hash:[i:b6a5ac17dcddef6f7f0431b9774a182d]
+.skipping key:017821c8-730f-40cf-b0eb-402d2d495158.3f59c933-342f-43a5-ada4-627f1b683b49.jpg as redis already has the hash:[i:c5f4441f85fea202a06a039c19b63fea]
+.skipping key:017c85b6-2e4b-4ee6-b00e-46fd849a7628.b438be2c-f96a-4e69-9125-1e4377284071.jpg as redis already has the hash:[i:ef63529e76cd4bf6e44ead52d8f99d29]
+.skipping key:017e7f8c-45f7-43d8-958a-9ff199f21bdb.cfef8407-ffd6-49bf-9234-ced4387d1cf6.jpg as redis already has the hash:[i:61bc10acca11e8a5c13a92de4138c829]
+.skipping key:017eca9b-6dbf-4835-891a-4c246d783f6f.65a18b12-7882-42f0-b05f-201e11a074c7.jpg as redis already has the hash:[i:366e23bbfb876afc44e7ba62acd30d87]
+.skipping key:01847335-a135-4eee-8880-78f1f3f5d098.a17c6591-de20-4b75-a5de-0bb11a34a116.jpg as redis already has the hash:[i:250b21922d81c6db5052cf4c950ab799]
+.skipping key:0186A0B5-8B5D-4AFB-A856-7C8D185920CF.55dbc1a6-b755-44d9-a0d2-a5a707955c58.jpg as redis already has the hash:[i:5be787ce74867a9a7964c3f9cf7bd4cd]
+.skipping key:0186dcb6-f3b3-4b3d-9cd2-68088e63b949.d35c6aa7-d41d-4b04-8cab-bbb29424d214.jpg as redis already has the hash:[i:5925d9b4141ceccdefad6dfe60c7490d]
+.skipping key:01875474-b111-430b-9e76-faecd54319c2.6c41a9e5-0e6b-4370-a218-cdf15a4cb301.jpg as redis already has the hash:[i:886fc3f6a9c806ed114003dc236d053f]
+.skipping key:018920d1-4fdc-40b4-af19-682f0e755d00.08d38089-355e-420e-924f-222f3439b3f1.jpg as redis already has the hash:[i:6b76bf554bc3d71425fe2861fbd39ad1]
+.skipping key:018d4d70-80fe-4471-bf2d-9b81be551846.1ab39692-065e-400b-b03c-7ba6dc0fb666.jpg as redis already has the hash:[i:461978ce779ec66db6ef045a6557991b]
+.skipping key:018daa32-5314-40cc-bcc1-521f4ad74dec.ddef3968-693a-48d5-bf5e-5beeeeb2f13e.jpg as redis already has the hash:[i:0222f6d37fcc9a25ffe3c77f0594cfdd]
+.skipping key:018e3402-dfef-405e-9122-dbcdc9441070.81cb7c3d-663e-430d-bc23-4dfddb34d171.jpg as redis already has the hash:[i:8f4b334ca7b3cb6a8f9b71dcf43c6995]
+.skipping key:018ee902-6d99-4ce5-abf3-fb3e5da37382.dd53f044-9b6b-41c1-989b-0ff65f933a40.jpg as redis already has the hash:[i:b572bdb06ed390e5b1cc871fd21b4b38]
+.skipping key:0192a4af-dd79-4f9f-a7f9-fdf697988c1b.9b95791d-608e-4c3e-8217-4658c1734c6e.jpg as redis already has the hash:[i:9358a2219aee62bf351a207ff7e3d9e1]
+.skipping key:01939a3b-7d73-4bea-9438-a9270124ff4d.b438be2c-f96a-4e69-9125-1e4377284071.jpg as redis already has the hash:[i:7cb492b742e28f5555689e4c09b6c595]
+.skipping key:0193ea26-12cb-4479-a660-2321dedfc803.dd53f044-9b6b-41c1-989b-0ff65f933a40.jpg as redis already has the hash:[i:f921b58a6ed405bd7542be5ebd870d1b]
+.skipping key:01970699-19f1-4887-aeaf-6e5d63e76459.0649232a-b406-4ec1-b175-ba0d91aa3e7c.jpg as redis already has the hash:[i:3d090440562b31641a7fe80c0aa567eb]
+.skipping key:0197A160-FFF4-409F-B999-7488CD51EE00.030450ce-b8e3-4506-a3bb-948dbee136f8.jpg as redis already has the hash:[i:55c2f8043c76db52a80edc14cb7b3e57]
+.skipping key:0197ebc5-aff7-4355-b55b-fd2f351357e4.51c7d94f-2223-47a9-9a20-5ac493c0bc3d.jpg as redis already has the hash:[i:7e1a54f84c1b5d205ea23b52f045aa3e]
+.skipping key:019d29ef-388c-453a-b3ea-54a06f1c76c0.0649232a-b406-4ec1-b175-ba0d91aa3e7c.jpg as redis already has the hash:[i:451dfc15caa9f51f751e449347f0d21d]
+.skipping key:019dc7aa-c687-42f7-afc8-1c38bd45b0ce.e0ea37c4-3ca2-4701-9a9b-a66444a4f637.jpg as redis already has the hash:[i:d7d96b8270c09f8c2c052166ae97bf35]
+.skipping key:01A02553-1055-4A5F-AB99-9A0B0D0F86E2.da59683d-82f9-4518-89b4-5f26276c5f4d.jpg as redis already has the hash:[i:fc468698c66678a38dd6b6699caa5fbd]
+.skipping key:01B51391-BBB5-413E-89C6-353C2D08EA0E.757bcf81-7814-4300-b536-da3283fcfc7e.jpg as redis already has the hash:[i:e6c7d95d4d756d248400d6f48a5341ff]
+.skipping key:01BC940E-7B72-4659-94D1-31DEF9DB4F24.da59683d-82f9-4518-89b4-5f26276c5f4d.jpg as redis already has the hash:[i:1a2dc6d61f65b65df0666c8a804f6cf7]
+.skipping key:01CC27E0-EE8C-44B1-B9BE-3F23AB43379C.419ad0ff-3deb-4766-9200-e2a45164140e.jpg as redis already has the hash:[i:e6c7d95d4d756d248400d6f48a5341ff]
+.skipping key:01CCAA3B-D406-43D0-8C8F-8E553158C601.c0bad80a-b0f7-4f67-98c6-8d5e65d53f09.jpg as redis already has the hash:[i:38043c3ade12230d2ff5449353b17f47]
+.skipping key:01DD6669-1AF1-4A46-9D32-75FDD2882D17.ede96cc7-5500-4b3a-8828-26aabcaa2f4c.jpg as redis already has the hash:[i:71b811238edc7dc50b48869ca039a86a]
+.skipping key:01E117D2-38AD-46C6-AA0B-4BFDD650F923.da59683d-82f9-4518-89b4-5f26276c5f4d.jpg as redis already has the hash:[i:fc468698c66678a38dd6b6699caa5fbd]
+.skipping key:01a11242-35d0-4865-8f90-5db01a30ed51.e8ae7a45-8b4c-4142-b3d2-0f631d543b20.jpg as redis already has the hash:[i:77bbf10df262687a81caefcfb51ac0a8]
+.skipping key:01a1fc71-f534-41ef-9887-ae610f632d74.25ce1b6b-5d1f-4f9f-8302-7741758426f0.jpg as redis already has the hash:[i:857f44cd7c9cb2e3170d6537a24184db]
+.skipping key:01a2539a-9e53-4050-a6b5-d94f0ee6cc55.10ab5118-b1e5-4ac9-922e-125138dbdf87.jpg as redis already has the hash:[i:1f9845b3f729d5c8116513375ec63896]
+.skipping key:01a70492-bca6-482b-9181-5e6713f08d9d.1ab39692-065e-400b-b03c-7ba6dc0fb666.jpg as redis already has the hash:[i:5147aa471386d5c699cc6200747865a2]
+.skipping key:01a8cb6c-2a28-412f-afe2-40978bd775df.9554afc4-5761-4d75-9904-399caa9d565f.jpg as redis already has the hash:[i:2a877cee6835e63cede4fb0be42a91b3]
+.skipping key:01a8f6cd-3239-43ce-b756-95abf64a1b12.bf54b6d2-542e-4c48-8a8a-53b47e6b91d5.jpg as redis already has the hash:[i:9c83384a1be4de19b0b15b57e4913e75]
+.skipping key:01b819c4-c765-4dca-a407-609b64954126.a17c6591-de20-4b75-a5de-0bb11a34a116.jpg as redis already has the hash:[i:ab4769f8562c3236a8573945a21305ca]
+We have 0015A5C3-D186-471J-A032-9E952CFF3CC6.8fedf4a8-8695-4d6d-ad1e-b686daa713a2.jpg already, size shouldBe:2609152 actual:243
+0015A5C3-D186-471J-A032-9E952CFF3CC6.8fedf4a8-8695-4d6d-ad1e-b686daa713a2.jpg was not fully downloaded, will try again..
+We have 0022496a-d9b9-409a-95c9-b65e3e1a05dd.ec4dd8a6-b8aa-41ac-bcec-930b91f30871.jpg already, size shouldBe:20971520 actual:243
+0022496a-d9b9-409a-95c9-b65e3e1a05dd.ec4dd8a6-b8aa-41ac-bcec-930b91f30871.jpg was not fully downloaded, will try again..
+We have 002B40A7-048B-4554-9EF1-8E4CB167375D.3912d78a-ec4e-405b-8280-e1a769567ba0.jpg already, size shouldBe:7726268 actual:7726268
+002B40A7-048B-4554-9EF1-8E4CB167375D.3912d78a-ec4e-405b-8280-e1a769567ba0.jpg has the correct file size, exif and storing info in redis
+We have 01302d0f-c5a6-4ce4-bea3-f9a0566550ae.d22b891e-8c80-454b-b26b-1ef65f7ed025.jpg already, size shouldBe:1504604 actual:1504604
+01302d0f-c5a6-4ce4-bea3-f9a0566550ae.d22b891e-8c80-454b-b26b-1ef65f7ed025.jpg has the correct file size, exif and storing info in redis
+We have 0188017b-0d90-4cab-9009-bbb74501c3d5.ede96cc7-5500-4b3a-8828-26aabcaa2f4c.jpg already, size shouldBe:14398478 actual:14398478
+0188017b-0d90-4cab-9009-bbb74501c3d5.ede96cc7-5500-4b3a-8828-26aabcaa2f4c.jpg has the correct file size, exif and storing info in redis
+We have 01891213-d911-4562-9947-8548dac09119.undefined.jpg already, size shouldBe:2083141 actual:2083141
+01891213-d911-4562-9947-8548dac09119.undefined.jpg has the correct file size, exif and storing info in redis
+pulling down image:[0015A5C3-D186-471J-A032-9E952CFF3CC6.8fedf4a8-8695-4d6d-ad1e-b686daa713a2.jpg] size:[2609152]
+pulling down image:[0022496a-d9b9-409a-95c9-b65e3e1a05dd.ec4dd8a6-b8aa-41ac-bcec-930b91f30871.jpg] size:[20971520]
+ERROR got status code:[403] for image: https://s3.amazonaws.com/waldo-recruiting/0015A5C3-D186-471J-A032-9E952CFF3CC6.8fedf4a8-8695-4d6d-ad1e-b686daa713a2.jpg type:[application/xml]
+ERROR got contentType code:[application/xml] for image: https://s3.amazonaws.com/waldo-recruiting/0015A5C3-D186-471J-A032-9E952CFF3CC6.8fedf4a8-8695-4d6d-ad1e-b686daa713a2.jpg
+.finished processing:0015A5C3-D186-471J-A032-9E952CFF3CC6.8fedf4a8-8695-4d6d-ad1e-b686daa713a2.jpg
+ERROR got status code:[403] for image: https://s3.amazonaws.com/waldo-recruiting/0022496a-d9b9-409a-95c9-b65e3e1a05dd.ec4dd8a6-b8aa-41ac-bcec-930b91f30871.jpg type:[application/xml]
+ERROR got contentType code:[application/xml] for image: https://s3.amazonaws.com/waldo-recruiting/0022496a-d9b9-409a-95c9-b65e3e1a05dd.ec4dd8a6-b8aa-41ac-bcec-930b91f30871.jpg
+.finished processing:0022496a-d9b9-409a-95c9-b65e3e1a05dd.ec4dd8a6-b8aa-41ac-bcec-930b91f30871.jpg
+ERROR insertEXIFDataForImage file:[./images/01302d0f-c5a6-4ce4-bea3-f9a0566550ae.d22b891e-8c80-454b-b26b-1ef65f7ed025.jpg] is not valid JPG: [PNG]
+.finished processing:01302d0f-c5a6-4ce4-bea3-f9a0566550ae.d22b891e-8c80-454b-b26b-1ef65f7ed025.jpg
+ERROR insertEXIFDataForImage file:[./images/01891213-d911-4562-9947-8548dac09119.undefined.jpg] is not valid JPG: [PNG]
+.finished processing:01891213-d911-4562-9947-8548dac09119.undefined.jpg
+ERROR insertEXIFDataForImage file:[./images/002B40A7-048B-4554-9EF1-8E4CB167375D.3912d78a-ec4e-405b-8280-e1a769567ba0.jpg] is not valid JPG: [PNG]
+.finished processing:002B40A7-048B-4554-9EF1-8E4CB167375D.3912d78a-ec4e-405b-8280-e1a769567ba0.jpg
+ERROR: gmIdentifyImage: 0188017b-0d90-4cab-9009-bbb74501c3d5.ede96cc7-5500-4b3a-8828-26aabcaa2f4c.jpg err: Error: Command failed: identify: Photometric tag is missing, assuming data is YCbCr. `TIFFReadDirectory' @ warning/tiff.c/TIFFWarnings/925.
+identify: SamplesPerPixel tag is missing, applying correct SamplesPerPixel value of 3. `TIFFReadDirectory' @ warning/tiff.c/TIFFWarnings/925.
+identify: Subsampling tag is not set, yet subsampling inside JPEG data [2,1] does not match default values [2,2]; assuming subsampling inside JPEG data is correct. `OJPEGSubsamplingCorrect' @ warning/tiff.c/TIFFWarnings/925.
+identify: Wrong data type 3 for "PixelXDimension"; tag ignored. `TIFFReadCustomDirectory' @ warning/tiff.c/TIFFWarnings/925.
+identify: Wrong data type 3 for "PixelYDimension"; tag ignored. `TIFFReadCustomDirectory' @ warning/tiff.c/TIFFWarnings/925.
+identify: Unknown field with tag 40965 (0xa005) encountered. `TIFFReadCustomDirectory' @ warning/tiff.c/TIFFWarnings/925.
+identify: Photometric tag is missing, assuming data is YCbCr. `TIFFReadDirectory' @ warning/tiff.c/TIFFWarnings/925.
+identify: SamplesPerPixel tag is missing, applying correct SamplesPerPixel value of 3. `TIFFReadDirectory' @ warning/tiff.c/TIFFWarnings/925.
+identify: Subsampling tag is not set, yet subsampling inside JPEG data [2,1] does not match default values [2,2]; assuming subsampling inside JPEG data is correct. `OJPEGSubsamplingCorrect' @ warning/tiff.c/TIFFWarnings/925.
+identify: Depreciated and troublesome old-style JPEG compression mode, please convert to new-style JPEG compression and notify vendor of writing software. `OJPEGSetupDecode' @ warning/tiff.c/TIFFWarnings/925.
+identify: Unknown field with tag 513 (0x201) encountered. `TIFFReadDirectory' @ warning/tiff.c/TIFFWarnings/925.
+identify: Unknown field with tag 514 (0x202) encountered. `TIFFReadDirectory' @ warning/tiff.c/TIFFWarnings/925.
+identify: TIFF directory is missing required "ImageLength" field. `MissingRequired' @ error/tiff.c/TIFFErrors/572.
+
+ERROR insertEXIFDataForImage file:[./images/0188017b-0d90-4cab-9009-bbb74501c3d5.ede96cc7-5500-4b3a-8828-26aabcaa2f4c.jpg] is not valid JPG: []
+.finished processing:0188017b-0d90-4cab-9009-bbb74501c3d5.ede96cc7-5500-4b3a-8828-26aabcaa2f4c.jpg
+all queue items have been processed

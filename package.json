@@ -1,0 +1,30 @@
+{
+  "name": "waldophotos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "download": "node downloader.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "cheerio": "^1.0.0-rc.2",
+    "exif": "^0.6.0",
+    "gm": "^1.23.0",
+    "lodash.flatten": "^4.4.0",
+    "lodash.map": "^4.6.0",
+    "mkdirp": "^0.5.1",
+    "redis": "^2.7.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.x",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.1.0"
+  }
+}

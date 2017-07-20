@@ -21,4 +21,4 @@ Sample project for waldo photo challenge. Sample output of run [here](./output.t
 
 #### Lookup key with tag
 
-   node lookup.js 04057962cae0c5952196a2eceb6a5715 ISO
+    node lookup.js 04057962cae0c5952196a2eceb6a5715 ISO

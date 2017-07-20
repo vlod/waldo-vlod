@@ -2,23 +2,23 @@
 
 Sample project for waldo photo challenge. Sample output of run [here](./output.txt).
 
-### Setup
+#### Setup
 
-  brew install graphicsmagick
-  npm install
+    brew install graphicsmagick
+    npm install
 
-### Start Redis
+#### Start Redis
 
-  docker-compose up
+    docker-compose up
 
-### Start downloading
+#### Start downloading
 
-  npm run download
+    npm run download
 
-### Lookup key
+#### Lookup key
 
-  node lookup.js 04057962cae0c5952196a2eceb6a5715
+    node lookup.js 04057962cae0c5952196a2eceb6a5715
 
-### Lookup key with tag
+#### Lookup key with tag
 
-  node lookup.js 04057962cae0c5952196a2eceb6a5715 ISO
+    node lookup.js 04057962cae0c5952196a2eceb6a5715 ISO

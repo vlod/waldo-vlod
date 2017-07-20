@@ -5,6 +5,7 @@ Sample project for waldo photo challenge. Sample output of run [here](./output.t
 ### Setup
 
   brew install graphicsmagick
+  
   npm install
 
 ### Start Redis

@@ -20,7 +20,7 @@ client.on('error', (err) => {
 });
 
 /**
- * Identifies if an image is jpg which is a valid exif carrier
+ * Graphicsmagick Indentify (to determine if an image is jpg. i.e. valid exif carrier)
  * @param {map} contents (filename, size, hash)
  */
 const gmIdentifyImage = (contents, cb) => {
@@ -40,12 +40,12 @@ const gmIdentifyImage = (contents, cb) => {
  */
 console.log(`Set queue with NUM_WORKERS = ${NUM_WORKERS}`);
 const queue = async.queue((contents, callback) => {
-  // we don't need to dl the image, as we already have a valid one on the fs
+  // we don't need to dl the image, as we already have a valid one on the filesystem
   if (contents.download === false) {
     insertEXIFDataForImage(contents, callback);
   }
   else {
-    // pull down the image and then insert the exif into db
+    // pull down the image, insert the exif into db
     console.log(`pulling down image:[${contents.imageFilename}] size:[${contents.imageSize}]`);
 
     // keep track of dodgy http.get responses
@@ -151,13 +151,12 @@ const insertEXIFDataForImage = (contents, callback) => {
 mkdirp(LOCAL_IMAGE_STORE, (err) => {
   if (err) throw err;
 
-  // go pull the list of imags to process
+  // go pull down the list of imags to process
   request(S3_IMAGES, (err1, resp, data) => {
-  // fs.readFile('./waldo-recruiting.xml', 'utf8', (err1, data) => {
     if (err1) throw err;
     const $ = cheerio.load(data, { ignoreWhitespace: true, xmlMode: true });
 
-    // for each entry, pick up details we'll need
+    // for each entry, pick up details we'll need later
     $('Contents').each((i, element) => {
       const contents = {
         imageFilename: $(element).children('Key').text(),
@@ -165,11 +164,11 @@ mkdirp(LOCAL_IMAGE_STORE, (err) => {
         imageHash: $(element).children('ETag').text().replace(/"/g, ''), // designated file hash
       };
 
-      // make sure this is a image extension that supports exif
+      // make sure this is a image ext that supports exif
       if (contents.imageFilename.match(/\.jpg$/)) {
         // ask redis if we've processed this image already
         client.exists(`i:${contents.imageHash}`, (err2, results) => {
-          // yes, let's skip it
+          // yes we've already loaded it, let's skip it
           if (results === 1) {
             console.log(`.skipping key:${contents.imageFilename} as redis already has the hash:[i:${contents.imageHash}]`);
           }
@@ -179,22 +178,25 @@ mkdirp(LOCAL_IMAGE_STORE, (err) => {
             // TODO: not great idea to store all these images in the same directory.
             // probably should md5 the filename and use the first 2 chars for directory
 
-            // do we have this file on the fs and is it the correct length?
+            // do we have this file on the filestystem and is it the correct length?
             fs.stat(`${LOCAL_IMAGE_STORE}/${contents.imageFilename}`, (err3, stats) => {
               if (err3 && err3.code === 'ENOENT') { // ENOENT: file not found
                 console.log(`Not seen: [${contents.imageFilename}] before, adding it to the queue`);
 
-                // no image file in fs, add it to the queue
+                // no image is on filesystem, add it to the queue
                 queue.push(contents, queuePushErrorHandler(contents));
               }
+
+              // yes we've found the image on the filesystem
               else {
-                // is the file size correct?
+                // however, is the file size correct? (deal with break in communication)
                 console.log(`We have ${contents.imageFilename} already, size shouldBe:${contents.imageSize} actual:${stats.size}`);
+
                 if (parseInt(contents.imageSize, 10) === stats.size) {
-                  // yes file size is correct. just get the exif and push to commander
+                  // yes file size is correct. just get the exif by add it to the queue
                   console.log(`${contents.imageFilename} has the correct file size, exif and storing info in redis`);
 
-                  contents.download = false; // no need to re-download
+                  contents.download = false; // indicate we don't need to re-download
                   queue.push(contents, queuePushErrorHandler(contents));
                 }
                 else {
